@@ -59,6 +59,8 @@ jobs:
                        toolchain=$TOOLCHAIN      \
                        +magisk=v26.1             \
                        +nohardening              \
+                       +mass_storage             \
+                       +dtb                      \
                        +ttl                      \
                        +wireguard                \
                        +cifs                     \
